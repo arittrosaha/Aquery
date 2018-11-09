@@ -13,9 +13,13 @@
 * Using the terminal - $ git clone https://github.com/arittrosaha/Aquery
 * Using the Git GUI - Use the green "Clone or download" button to download.
 
-**Step 2** - Import $l function from Aquery/lib/Aquery_lite.js and save it into a variable for further usecases.
-* ES5 - var $l = require('.Aquery/lib/Aquery_lite.js');
-* ES6 - import $l from '.Aquery/lib/Aquery_lite.js';
+**Step 2** - Copy the file Aquery/lib/Aquery_lite.js to your project.
+
+**Step 3** - Import $l function Aquery_lite.js and save it into a variable for further usecases.
+* ES5 - var $l = require('.Aquery_lite.js');
+* ES6 - import $l from '.Aquery_lite.js';
+
+
 
 ## Current Features
 
