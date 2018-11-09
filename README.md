@@ -8,6 +8,15 @@
 
 **Stack** - Vanilla JS
 
+## How to use it?
+**Step 1** - Clone or download the project using the terminal
+* Using the terminal - $ git clone https://github.com/arittrosaha/Aquery
+* Using the Git GUI - Use the green "Clone or download" button to download.
+
+**Step 2** - Import $l function from Aquery/lib/Aquery_lite.js and save it into a variable for further usecases.
+* ES5 - var $l = require('.Aquery/lib/Aquery_lite.js');
+* ES6 - import $l from '.Aquery/lib/Aquery_lite.js';
+
 ## Current Features
 
 ### $l(arg)
