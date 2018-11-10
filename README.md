@@ -8,6 +8,7 @@
 
 **Stack** - Vanilla JS
 
+---
 ## How to use it?
 **Step 1** - Clone or download the project using the terminal
 * Using the terminal - $ git clone https://github.com/arittrosaha/Aquery
@@ -20,7 +21,7 @@
 * ES6 - import $l from '.Aquery_lite.js';
 
 
-
+---
 ## Current Features
 
 ### $l(arg)
@@ -37,6 +38,7 @@
 <img src="images/$l.png" alt="$l(arg)" width="500" />
 </p>
 
+---
 ### $l.extend(object1, object2, object3,...)
 * jQuery equivalence - $.extend()
 * Code breakdown:
@@ -47,6 +49,7 @@
 <img src="images/extend.png" alt="$l.extend(objects)" width="500" />
 </p>
 
+---
 ### $l.ajax()
 * jQuery equivalence - $.ajax()
 * Vanilla JS DOM functions used - XMLHttpRequest()
@@ -60,6 +63,7 @@
 <img src="images/ajax.png" alt="$l.ajax(options)" width="500" />
 </p>
 
+---
 ### DOMNodeCollection
 * jQuery equivalence - The jQuery object known as the "wrapped set," an array-like indexible structure that contains all the selected DOM elements.
 * Code breakdown:
@@ -71,6 +75,7 @@
 <img src="images/DomNodeCollection.png" alt="DomNodeCollection" width="500" />
 </p>
 
+---
 ### DOMNodeCollection.prototype methods
 #### html(str)
 * jQuery equivalence - $().html()
@@ -84,6 +89,7 @@
 <img src="images/html.png" alt="$l(arg).html(str)" width="600" />
 </p>
 
+---
 #### empty()
 * jQuery equivalence - $().empty()
 * Code breakdown:
@@ -93,6 +99,7 @@
 <img src="images/empty.png" alt="$l(arg).empty()" width="600" />
 </p>
 
+---
 #### append(args)
 * jQuery equivalence - $().append()
 * Vanilla JS DOM functions used - HTMLElement.innerHTML, HTMLElement.outerHTML
@@ -105,6 +112,7 @@
 <img src="images/append.png" alt="$l(arg).append(args)" width="600" />
 </p>
 
+---
 #### remove()
 * jQuery equivalence - $().remove()
 * Vanilla JS DOM functions used - HTMLElement.outerHTML
@@ -117,6 +125,7 @@
 <img src="images/remove.png" alt="$l(arg).remove()" width="600" />
 </p>
 
+---
 #### attr(reader, setter)
 * jQuery equivalence - $().attr()
 * Vanilla JS DOM functions used - HTMLElement.getAttribute(reader), HTMLElement.setAttribute(reader, setter)
@@ -129,7 +138,8 @@
 <p align = "center">
 <img src="images/attr.png" alt="$l(arg).attr(reader, setter)" width="600" />
 </p>
-  
+ 
+--- 
 #### addClass(arg)
 * jQuery equivalence - $().addClass()
 * Vanilla JS DOM functions used - HTMLElement.getAttribute(reader), HTMLElement.setAttribute(reader, setter)
@@ -143,6 +153,7 @@
 <img src="images/addClass.png" alt="$l(arg).addClass(arg)" width="600" />
 </p>
 
+---
 #### removeClass(arg)
 * jQuery equivalence - $().removeClass()
 * Vanilla JS DOM functions used - HTMLElement.getAttribute(reader), HTMLElement.setAttribute(reader, setter)
@@ -154,7 +165,8 @@
 <p align = "center">
 <img src="images/removeClass.png" alt="$l(arg).removeClass(arg)" width="600" />
 </p>
-  
+
+---  
 #### Traversal methods:
 ##### children()
 * jQuery equivalence - $().children()
@@ -167,6 +179,7 @@
 <img src="images/children.png" alt="$l(arg).children()" width="600" />
 </p>
 
+---
 ##### parent()
 * jQuery equivalence - $().parent()
 * Vanilla JS DOM functions used - HTMLElement.parentElement
@@ -178,6 +191,7 @@
 <img src="images/parent.png" alt="$l(arg).parent()" width="600" />
 </p>
 
+---
 ##### find(arg)
 * jQuery equivalence - $().find()
 * Vanilla JS DOM functions used - HTMLElement.querySelectorAll(arg)
@@ -189,6 +203,7 @@
 <img src="images/find.png" alt="$l(arg).find(arg)" width="600" />
 </p>
 
+---
 #### Event Handling methods:
 ##### on(event, callback)
 * jQuery equivalence - $().on()
@@ -204,6 +219,7 @@
 <img src="images/on.png" alt="$l(arg).on(event, callback)" width="600" />
 </p>
 
+---
 ##### off(event, callback)
 * jQuery equivalence - $().off()
 * Vanilla JS DOM functions used - HTMLElement.removeEventListener(event, callback)
@@ -215,6 +231,7 @@
 <img src="images/off.png" alt="$l(arg).off(event, callback)" width="600" />
 </p>
 
+---
 ## Future additions
 #### Promise - Have my ajax function return a promise.
 #### Build a simple app (i.e. a tic-tac-toe game) using this custom library.
