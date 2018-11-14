@@ -1,5 +1,7 @@
 # Aquery
 
+Before testing the library, please try to read the following readme in it's entirety.
+
 **_If you find a bug or have a recommendation to make this application better, please contact me through GitHub or my email, arittrosaha@gmail.com. Thank you very much!_**
 
 ---
